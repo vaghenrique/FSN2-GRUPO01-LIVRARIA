@@ -99,8 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-color: #0c345c;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.967), rgba(46, 49, 65, 0.95)), url("../../images/pic0-banner_inicial.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -193,7 +193,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
-			margin: 0 0 2em 0;
+			margin: 0 0 3em 0;
 			text-transform: uppercase;
 		}
 
@@ -255,8 +255,9 @@ input, select, textarea {
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 1 0;
 		text-transform: uppercase;
+
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2421,6 +2422,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 5px;
 			display: block;
+			max-height: 400px;
 		}
 
 		.image.left, .image.right {
@@ -2429,6 +2431,7 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
+	
 			}
 
 		.image.left {
@@ -2745,7 +2748,7 @@ input, select, textarea {
 				}
 
 				ul.pagination li > .page.active {
-					background-color: #4c5c96;
+					background-color: #0c345c;
 				}
 
 			ul.pagination li:first-child {
@@ -3626,7 +3629,7 @@ input, select, textarea {
 
 	.wrapper {
 		background-color: #2e3141;
-		margin: 6.5em 0;
+		margin: 6.5em 0e;
 		position: relative;
 	}
 
@@ -4008,7 +4011,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 5em 0 3em 0 ;
+		padding: 7em 0 3em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4152,5 +4155,15 @@ input, select, textarea {
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
-		
+
+	}
+
+	.mais_vendidos {
+		padding-top: 2em;
+		margin-left: 10em;
+		margin-right: 10em;
+	}
+
+	.p_section {
+		margin-bottom: 4em;
 	}
